@@ -2,7 +2,10 @@ import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
 //code here 
-  
+  const [value,setValue] =useState(false)
+  const  handleclick=() =>{
+  setValue(!value)
+  }
 
   
   return (
